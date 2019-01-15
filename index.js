@@ -48,5 +48,3 @@ fs.readdir("./node_commands/", (err, files) => {
     if(err)return console.log("[COMMANDS] "+err)
     let jsfile = files.filter(f => f.split(".").pop() === "js");
     if(jsfile.length <= 0){return;}});
-//
-client.login("NTUAMAE");
